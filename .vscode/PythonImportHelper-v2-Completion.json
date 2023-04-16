@@ -220,6 +220,23 @@
         "documentation": {}
     },
     {
+        "label": "warnings",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "warnings",
+        "description": "warnings",
+        "detail": "warnings",
+        "documentation": {}
+    },
+    {
+        "label": "management",
+        "importPath": "django.core",
+        "description": "django.core",
+        "isExtraImport": true,
+        "detail": "django.core",
+        "documentation": {}
+    },
+    {
         "label": "Migration",
         "kind": 6,
         "importPath": "myproject.api.migrations.0001_initial",
@@ -350,7 +367,7 @@
         "kind": 5,
         "importPath": "myproject.myproject.settings",
         "description": "myproject.myproject.settings",
-        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-al5a9hkmx3e%@zrzim6j6zavg_#em=wu9q#f2%n-r8ui0^c%x%'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['localhost', 'kenyokohama.pythonanywhere.com']\n# Application definition\nINSTALLED_APPS = [",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-al5a9hkmx3e%@zrzim6j6zavg_#em=wu9q#f2%n-r8ui0^c%x%'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['localhost', 'kenyokohama.pythonanywhere.com', 'testmanest-django']\n# Application definition\nINSTALLED_APPS = [",
         "detail": "myproject.myproject.settings",
         "documentation": {}
     },
@@ -359,7 +376,7 @@
         "kind": 5,
         "importPath": "myproject.myproject.settings",
         "description": "myproject.myproject.settings",
-        "peekOfCode": "SECRET_KEY = 'django-insecure-al5a9hkmx3e%@zrzim6j6zavg_#em=wu9q#f2%n-r8ui0^c%x%'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['localhost', 'kenyokohama.pythonanywhere.com']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-al5a9hkmx3e%@zrzim6j6zavg_#em=wu9q#f2%n-r8ui0^c%x%'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['localhost', 'kenyokohama.pythonanywhere.com', 'testmanest-django']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
         "detail": "myproject.myproject.settings",
         "documentation": {}
     },
@@ -368,7 +385,7 @@
         "kind": 5,
         "importPath": "myproject.myproject.settings",
         "description": "myproject.myproject.settings",
-        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = ['localhost', 'kenyokohama.pythonanywhere.com']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = ['localhost', 'kenyokohama.pythonanywhere.com', 'testmanest-django']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
         "detail": "myproject.myproject.settings",
         "documentation": {}
     },
@@ -377,7 +394,7 @@
         "kind": 5,
         "importPath": "myproject.myproject.settings",
         "description": "myproject.myproject.settings",
-        "peekOfCode": "ALLOWED_HOSTS = ['localhost', 'kenyokohama.pythonanywhere.com']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',",
+        "peekOfCode": "ALLOWED_HOSTS = ['localhost', 'kenyokohama.pythonanywhere.com', 'testmanest-django']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',",
         "detail": "myproject.myproject.settings",
         "documentation": {}
     },
